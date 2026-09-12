@@ -1,0 +1,25 @@
+{
+  // Basic infantry unit for StarterKit demo (RISK-style simple combat)
+  id: "infantry",
+  name: "Infantry",
+  category: "land",
+  version: 1,
+
+  cost: {
+    gold: 20
+  },
+
+  maintenance: {
+    gold: 1
+  },
+
+  stats: {
+    speed: 2   // Days per province movement
+  },
+
+  visual: {
+    type: "billboard",
+    icon: "Icons/Infantry",
+    color_source: "country"
+  }
+}

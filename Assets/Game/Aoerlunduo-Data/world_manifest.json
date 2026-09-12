@@ -1,0 +1,2586 @@
+{
+  "world": "奥尔伦多",
+  "scenario": "AO纪元2136年",
+  "map": {
+    "width": 15000,
+    "height": 6500
+  },
+  "province_count": 264,
+  "country_count": 28,
+  "countries": [
+    {
+      "tag": "NWV",
+      "name": "诺德维恩",
+      "capital": "维恩堡",
+      "capital_province": 90,
+      "province_count": 30
+    },
+    {
+      "tag": "VLS",
+      "name": "瓦尔瑟",
+      "capital": "瑟兰",
+      "capital_province": 158,
+      "province_count": 9
+    },
+    {
+      "tag": "EST",
+      "name": "埃斯缇尔",
+      "capital": "缇尔城",
+      "capital_province": 118,
+      "province_count": 8
+    },
+    {
+      "tag": "ALV",
+      "name": "阿尔维昂",
+      "capital": "洛恩达",
+      "capital_province": 119,
+      "province_count": 34
+    },
+    {
+      "tag": "VSK",
+      "name": "维斯卡恩",
+      "capital": "卡恩都",
+      "capital_province": 49,
+      "province_count": 35
+    },
+    {
+      "tag": "OSL",
+      "name": "奥瑟兰",
+      "capital": "瑟维亚",
+      "capital_province": 18,
+      "province_count": 17
+    },
+    {
+      "tag": "NVK",
+      "name": "诺尔瓦克",
+      "capital": "寒湾",
+      "capital_province": 9,
+      "province_count": 4
+    },
+    {
+      "tag": "HLV",
+      "name": "赫尔维克",
+      "capital": "赫林",
+      "capital_province": 10,
+      "province_count": 1
+    },
+    {
+      "tag": "ISD",
+      "name": "伊斯兰德尔",
+      "capital": "伊斯港",
+      "capital_province": 14,
+      "province_count": 7
+    },
+    {
+      "tag": "KLD",
+      "name": "卡尔登",
+      "capital": "登瓦",
+      "capital_province": 35,
+      "province_count": 3
+    },
+    {
+      "tag": "MRC",
+      "name": "梅瑞西亚",
+      "capital": "梅瑞尔",
+      "capital_province": 38,
+      "province_count": 3
+    },
+    {
+      "tag": "SVL",
+      "name": "塞维伦",
+      "capital": "维伦城",
+      "capital_province": 84,
+      "province_count": 4
+    },
+    {
+      "tag": "TLV",
+      "name": "塔尔维斯",
+      "capital": "塔尔门",
+      "capital_province": 165,
+      "province_count": 2
+    },
+    {
+      "tag": "ELS",
+      "name": "埃伦萨",
+      "capital": "萨兰",
+      "capital_province": 80,
+      "province_count": 2
+    },
+    {
+      "tag": "LSV",
+      "name": "洛萨维亚",
+      "capital": "洛萨",
+      "capital_province": 155,
+      "province_count": 5
+    },
+    {
+      "tag": "VRS",
+      "name": "维拉辛",
+      "capital": "辛海",
+      "capital_province": 171,
+      "province_count": 6
+    },
+    {
+      "tag": "DKS",
+      "name": "多尔卡斯",
+      "capital": "卡斯塔",
+      "capital_province": 149,
+      "province_count": 6
+    },
+    {
+      "tag": "BRN",
+      "name": "布雷恩",
+      "capital": "雷恩堡",
+      "capital_province": 163,
+      "province_count": 3
+    },
+    {
+      "tag": "OST",
+      "name": "奥斯缇亚",
+      "capital": "缇亚",
+      "capital_province": 166,
+      "province_count": 2
+    },
+    {
+      "tag": "PLS",
+      "name": "佩尔萨",
+      "capital": "佩兰",
+      "capital_province": 167,
+      "province_count": 2
+    },
+    {
+      "tag": "SLT",
+      "name": "萨兰提尔",
+      "capital": "兰提",
+      "capital_province": 181,
+      "province_count": 7
+    },
+    {
+      "tag": "ARD",
+      "name": "艾瑞汀",
+      "capital": "瑞汀",
+      "capital_province": 202,
+      "province_count": 3
+    },
+    {
+      "tag": "SLN",
+      "name": "塞洛恩",
+      "capital": "塞洛港",
+      "capital_province": 205,
+      "province_count": 6
+    },
+    {
+      "tag": "MRV",
+      "name": "马尔维亚",
+      "capital": "马尔登",
+      "capital_province": 209,
+      "province_count": 11
+    },
+    {
+      "tag": "ISR",
+      "name": "伊瑟拉",
+      "capital": "瑟拉湾",
+      "capital_province": 239,
+      "province_count": 5
+    },
+    {
+      "tag": "KMO",
+      "name": "凯尔莫",
+      "capital": "凯尔关",
+      "capital_province": 196,
+      "province_count": 3
+    },
+    {
+      "tag": "ZVL",
+      "name": "扎维伦",
+      "capital": "扎兰",
+      "capital_province": 207,
+      "province_count": 1
+    },
+    {
+      "tag": "SLD",
+      "name": "苏兰德",
+      "capital": "南望城",
+      "capital_province": 220,
+      "province_count": 19
+    }
+  ],
+  "provinces": [
+    {
+      "id": 1,
+      "name": "奥尔伦多世界洋",
+      "cx": 462.5,
+      "cy": 301.0,
+      "area": 389796,
+      "owner": null,
+      "terrain": "ocean"
+    },
+    {
+      "id": 2,
+      "name": "奥尔伦多省份 2",
+      "cx": 283.0,
+      "cy": 50.0,
+      "area": 20,
+      "owner": "EST",
+      "terrain": "plains"
+    },
+    {
+      "id": 3,
+      "name": "奥尔伦多省份 3",
+      "cx": 393.0,
+      "cy": 53.0,
+      "area": 443,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 4,
+      "name": "奥尔伦多省份 4",
+      "cx": 377.0,
+      "cy": 66.0,
+      "area": 59,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 5,
+      "name": "奥尔伦多省份 5",
+      "cx": 451.0,
+      "cy": 26.0,
+      "area": 304,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 6,
+      "name": "奥尔伦多省份 6",
+      "cx": 474.0,
+      "cy": 23.0,
+      "area": 386,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 7,
+      "name": "奥尔伦多省份 7",
+      "cx": 637.0,
+      "cy": 28.0,
+      "area": 205,
+      "owner": "NVK",
+      "terrain": "plains"
+    },
+    {
+      "id": 8,
+      "name": "奥尔伦多省份 8",
+      "cx": 647.0,
+      "cy": 27.0,
+      "area": 64,
+      "owner": "NVK",
+      "terrain": "plains"
+    },
+    {
+      "id": 9,
+      "name": "寒湾",
+      "cx": 718.0,
+      "cy": 34.0,
+      "area": 440,
+      "owner": "NVK",
+      "terrain": "plains"
+    },
+    {
+      "id": 10,
+      "name": "赫林",
+      "cx": 730.0,
+      "cy": 58.0,
+      "area": 451,
+      "owner": "HLV",
+      "terrain": "plains"
+    },
+    {
+      "id": 11,
+      "name": "奥尔伦多省份 11",
+      "cx": 732.0,
+      "cy": 40.0,
+      "area": 135,
+      "owner": "NVK",
+      "terrain": "plains"
+    },
+    {
+      "id": 12,
+      "name": "奥尔伦多省份 12",
+      "cx": 746.0,
+      "cy": 45.0,
+      "area": 109,
+      "owner": "ISD",
+      "terrain": "plains"
+    },
+    {
+      "id": 13,
+      "name": "奥尔伦多省份 13",
+      "cx": 759.0,
+      "cy": 28.0,
+      "area": 44,
+      "owner": "ISD",
+      "terrain": "plains"
+    },
+    {
+      "id": 14,
+      "name": "伊斯港",
+      "cx": 760.0,
+      "cy": 53.0,
+      "area": 306,
+      "owner": "ISD",
+      "terrain": "plains"
+    },
+    {
+      "id": 15,
+      "name": "奥尔伦多省份 15",
+      "cx": 168.0,
+      "cy": 67.0,
+      "area": 50,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 16,
+      "name": "奥尔伦多省份 16",
+      "cx": 188.0,
+      "cy": 84.0,
+      "area": 391,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 17,
+      "name": "奥尔伦多省份 17",
+      "cx": 484.0,
+      "cy": 62.0,
+      "area": 419,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 18,
+      "name": "瑟维亚",
+      "cx": 685.0,
+      "cy": 98.0,
+      "area": 794,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 19,
+      "name": "奥尔伦多省份 19",
+      "cx": 696.0,
+      "cy": 177.0,
+      "area": 265,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 20,
+      "name": "奥尔伦多省份 20",
+      "cx": 661.0,
+      "cy": 33.0,
+      "area": 277,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 21,
+      "name": "奥尔伦多省份 21",
+      "cx": 734.0,
+      "cy": 109.0,
+      "area": 148,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 22,
+      "name": "奥尔伦多省份 22",
+      "cx": 702.0,
+      "cy": 55.0,
+      "area": 186,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 23,
+      "name": "奥尔伦多省份 23",
+      "cx": 673.0,
+      "cy": 147.0,
+      "area": 595,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 24,
+      "name": "奥尔伦多省份 24",
+      "cx": 650.0,
+      "cy": 70.0,
+      "area": 279,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 25,
+      "name": "奥尔伦多省份 25",
+      "cx": 702.0,
+      "cy": 128.0,
+      "area": 380,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 26,
+      "name": "奥尔伦多省份 26",
+      "cx": 713.0,
+      "cy": 84.0,
+      "area": 518,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 27,
+      "name": "奥尔伦多省份 27",
+      "cx": 672.0,
+      "cy": 54.0,
+      "area": 1017,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 28,
+      "name": "奥尔伦多省份 28",
+      "cx": 660.0,
+      "cy": 116.0,
+      "area": 361,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 29,
+      "name": "奥尔伦多省份 29",
+      "cx": 678.0,
+      "cy": 168.0,
+      "area": 412,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 30,
+      "name": "奥尔伦多省份 30",
+      "cx": 681.0,
+      "cy": 124.0,
+      "area": 719,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 31,
+      "name": "奥尔伦多省份 31",
+      "cx": 715.0,
+      "cy": 109.0,
+      "area": 746,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 32,
+      "name": "奥尔伦多省份 32",
+      "cx": 693.0,
+      "cy": 73.0,
+      "area": 735,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 33,
+      "name": "奥尔伦多省份 33",
+      "cx": 649.0,
+      "cy": 48.0,
+      "area": 381,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 34,
+      "name": "奥尔伦多省份 34",
+      "cx": 662.0,
+      "cy": 87.0,
+      "area": 587,
+      "owner": "OSL",
+      "terrain": "plains"
+    },
+    {
+      "id": 35,
+      "name": "登瓦",
+      "cx": 733.0,
+      "cy": 78.0,
+      "area": 431,
+      "owner": "KLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 36,
+      "name": "奥尔伦多省份 36",
+      "cx": 753.0,
+      "cy": 71.0,
+      "area": 114,
+      "owner": "KLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 37,
+      "name": "奥尔伦多省份 37",
+      "cx": 744.0,
+      "cy": 79.0,
+      "area": 71,
+      "owner": "KLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 38,
+      "name": "梅瑞尔",
+      "cx": 752.0,
+      "cy": 88.0,
+      "area": 178,
+      "owner": "MRC",
+      "terrain": "plains"
+    },
+    {
+      "id": 39,
+      "name": "奥尔伦多省份 39",
+      "cx": 761.0,
+      "cy": 65.0,
+      "area": 72,
+      "owner": "ISD",
+      "terrain": "plains"
+    },
+    {
+      "id": 40,
+      "name": "奥尔伦多省份 40",
+      "cx": 762.0,
+      "cy": 78.0,
+      "area": 36,
+      "owner": "MRC",
+      "terrain": "plains"
+    },
+    {
+      "id": 41,
+      "name": "奥尔伦多省份 41",
+      "cx": 768.0,
+      "cy": 67.0,
+      "area": 39,
+      "owner": "ISD",
+      "terrain": "plains"
+    },
+    {
+      "id": 42,
+      "name": "奥尔伦多省份 42",
+      "cx": 771.0,
+      "cy": 62.0,
+      "area": 31,
+      "owner": "ISD",
+      "terrain": "plains"
+    },
+    {
+      "id": 43,
+      "name": "奥尔伦多省份 43",
+      "cx": 773.0,
+      "cy": 74.0,
+      "area": 30,
+      "owner": "ISD",
+      "terrain": "plains"
+    },
+    {
+      "id": 44,
+      "name": "奥尔伦多省份 44",
+      "cx": 779.0,
+      "cy": 91.0,
+      "area": 170,
+      "owner": "MRC",
+      "terrain": "plains"
+    },
+    {
+      "id": 45,
+      "name": "奥尔伦多省份 45",
+      "cx": 792.0,
+      "cy": 95.0,
+      "area": 221,
+      "owner": "SVL",
+      "terrain": "plains"
+    },
+    {
+      "id": 46,
+      "name": "奥尔伦多省份 46",
+      "cx": 461.0,
+      "cy": 108.0,
+      "area": 50,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 47,
+      "name": "奥尔伦多省份 47",
+      "cx": 489.0,
+      "cy": 113.0,
+      "area": 37,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 48,
+      "name": "奥尔伦多省份 48",
+      "cx": 497.0,
+      "cy": 105.0,
+      "area": 30,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 49,
+      "name": "卡恩都",
+      "cx": 597.0,
+      "cy": 108.0,
+      "area": 802,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 50,
+      "name": "奥尔伦多省份 50",
+      "cx": 663.0,
+      "cy": 187.0,
+      "area": 292,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 51,
+      "name": "奥尔伦多省份 51",
+      "cx": 522.0,
+      "cy": 63.0,
+      "area": 191,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 52,
+      "name": "奥尔伦多省份 52",
+      "cx": 623.0,
+      "cy": 33.0,
+      "area": 185,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 53,
+      "name": "奥尔伦多省份 53",
+      "cx": 524.0,
+      "cy": 127.0,
+      "area": 172,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 54,
+      "name": "奥尔伦多省份 54",
+      "cx": 605.0,
+      "cy": 165.0,
+      "area": 369,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 55,
+      "name": "奥尔伦多省份 55",
+      "cx": 645.0,
+      "cy": 139.0,
+      "area": 617,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 56,
+      "name": "奥尔伦多省份 56",
+      "cx": 574.0,
+      "cy": 61.0,
+      "area": 373,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 57,
+      "name": "奥尔伦多省份 57",
+      "cx": 637.0,
+      "cy": 82.0,
+      "area": 399,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 58,
+      "name": "奥尔伦多省份 58",
+      "cx": 549.0,
+      "cy": 98.0,
+      "area": 693,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 59,
+      "name": "奥尔伦多省份 59",
+      "cx": 567.0,
+      "cy": 139.0,
+      "area": 364,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 60,
+      "name": "奥尔伦多省份 60",
+      "cx": 611.0,
+      "cy": 58.0,
+      "area": 771,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 61,
+      "name": "奥尔伦多省份 61",
+      "cx": 638.0,
+      "cy": 170.0,
+      "area": 892,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 62,
+      "name": "奥尔伦多省份 62",
+      "cx": 617.0,
+      "cy": 142.0,
+      "area": 1026,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 63,
+      "name": "奥尔伦多省份 63",
+      "cx": 541.0,
+      "cy": 48.0,
+      "area": 198,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 64,
+      "name": "奥尔伦多省份 64",
+      "cx": 525.0,
+      "cy": 107.0,
+      "area": 321,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 65,
+      "name": "奥尔伦多省份 65",
+      "cx": 628.0,
+      "cy": 111.0,
+      "area": 810,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 66,
+      "name": "奥尔伦多省份 66",
+      "cx": 589.0,
+      "cy": 80.0,
+      "area": 758,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 67,
+      "name": "奥尔伦多省份 67",
+      "cx": 543.0,
+      "cy": 67.0,
+      "area": 680,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 68,
+      "name": "奥尔伦多省份 68",
+      "cx": 631.0,
+      "cy": 51.0,
+      "area": 424,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 69,
+      "name": "奥尔伦多省份 69",
+      "cx": 616.0,
+      "cy": 86.0,
+      "area": 740,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 70,
+      "name": "奥尔伦多省份 70",
+      "cx": 570.0,
+      "cy": 115.0,
+      "area": 704,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 71,
+      "name": "奥尔伦多省份 71",
+      "cx": 657.0,
+      "cy": 162.0,
+      "area": 368,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 72,
+      "name": "奥尔伦多省份 72",
+      "cx": 544.0,
+      "cy": 121.0,
+      "area": 547,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 73,
+      "name": "奥尔伦多省份 73",
+      "cx": 642.0,
+      "cy": 191.0,
+      "area": 242,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 74,
+      "name": "奥尔伦多省份 74",
+      "cx": 592.0,
+      "cy": 135.0,
+      "area": 619,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 75,
+      "name": "奥尔伦多省份 75",
+      "cx": 566.0,
+      "cy": 81.0,
+      "area": 613,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 76,
+      "name": "奥尔伦多省份 76",
+      "cx": 597.0,
+      "cy": 47.0,
+      "area": 257,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 77,
+      "name": "奥尔伦多省份 77",
+      "cx": 647.0,
+      "cy": 107.0,
+      "area": 283,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 78,
+      "name": "奥尔伦多省份 78",
+      "cx": 589.0,
+      "cy": 160.0,
+      "area": 259,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 79,
+      "name": "奥尔伦多省份 79",
+      "cx": 529.0,
+      "cy": 84.0,
+      "area": 376,
+      "owner": "VSK",
+      "terrain": "plains"
+    },
+    {
+      "id": 80,
+      "name": "萨兰",
+      "cx": 723.0,
+      "cy": 137.0,
+      "area": 490,
+      "owner": "ELS",
+      "terrain": "plains"
+    },
+    {
+      "id": 81,
+      "name": "奥尔伦多省份 81",
+      "cx": 740.0,
+      "cy": 142.0,
+      "area": 85,
+      "owner": "ELS",
+      "terrain": "plains"
+    },
+    {
+      "id": 82,
+      "name": "奥尔伦多省份 82",
+      "cx": 747.0,
+      "cy": 126.0,
+      "area": 591,
+      "owner": "SVL",
+      "terrain": "plains"
+    },
+    {
+      "id": 83,
+      "name": "奥尔伦多省份 83",
+      "cx": 764.0,
+      "cy": 138.0,
+      "area": 83,
+      "owner": "SVL",
+      "terrain": "plains"
+    },
+    {
+      "id": 84,
+      "name": "维伦城",
+      "cx": 755.0,
+      "cy": 109.0,
+      "area": 415,
+      "owner": "SVL",
+      "terrain": "plains"
+    },
+    {
+      "id": 85,
+      "name": "奥尔伦多省份 85",
+      "cx": 782.0,
+      "cy": 131.0,
+      "area": 243,
+      "owner": "LSV",
+      "terrain": "plains"
+    },
+    {
+      "id": 86,
+      "name": "奥尔伦多省份 86",
+      "cx": 801.0,
+      "cy": 136.0,
+      "area": 453,
+      "owner": "LSV",
+      "terrain": "plains"
+    },
+    {
+      "id": 87,
+      "name": "奥尔伦多省份 87",
+      "cx": 879.0,
+      "cy": 131.0,
+      "area": 26,
+      "owner": "LSV",
+      "terrain": "plains"
+    },
+    {
+      "id": 88,
+      "name": "奥尔伦多省份 88",
+      "cx": 106.0,
+      "cy": 175.0,
+      "area": 22,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 89,
+      "name": "奥尔伦多省份 89",
+      "cx": 136.0,
+      "cy": 144.0,
+      "area": 51,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 90,
+      "name": "维恩堡",
+      "cx": 220.0,
+      "cy": 152.0,
+      "area": 561,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 91,
+      "name": "奥尔伦多省份 91",
+      "cx": 289.0,
+      "cy": 102.0,
+      "area": 92,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 92,
+      "name": "奥尔伦多省份 92",
+      "cx": 170.0,
+      "cy": 216.0,
+      "area": 251,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 93,
+      "name": "奥尔伦多省份 93",
+      "cx": 150.0,
+      "cy": 105.0,
+      "area": 251,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 94,
+      "name": "奥尔伦多省份 94",
+      "cx": 267.0,
+      "cy": 189.0,
+      "area": 104,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 95,
+      "name": "奥尔伦多省份 95",
+      "cx": 219.0,
+      "cy": 95.0,
+      "area": 256,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 96,
+      "name": "奥尔伦多省份 96",
+      "cx": 215.0,
+      "cy": 197.0,
+      "area": 382,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 97,
+      "name": "奥尔伦多省份 97",
+      "cx": 177.0,
+      "cy": 172.0,
+      "area": 358,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 98,
+      "name": "奥尔伦多省份 98",
+      "cx": 268.0,
+      "cy": 140.0,
+      "area": 618,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 99,
+      "name": "奥尔伦多省份 99",
+      "cx": 180.0,
+      "cy": 121.0,
+      "area": 607,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 100,
+      "name": "奥尔伦多省份 100",
+      "cx": 252.0,
+      "cy": 102.0,
+      "area": 907,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 101,
+      "name": "奥尔伦多省份 101",
+      "cx": 239.0,
+      "cy": 173.0,
+      "area": 839,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 102,
+      "name": "奥尔伦多省份 102",
+      "cx": 202.0,
+      "cy": 177.0,
+      "area": 1004,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 103,
+      "name": "奥尔伦多省份 103",
+      "cx": 227.0,
+      "cy": 116.0,
+      "area": 748,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 104,
+      "name": "奥尔伦多省份 104",
+      "cx": 188.0,
+      "cy": 205.0,
+      "area": 892,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 105,
+      "name": "奥尔伦多省份 105",
+      "cx": 187.0,
+      "cy": 149.0,
+      "area": 659,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 106,
+      "name": "奥尔伦多省份 106",
+      "cx": 166.0,
+      "cy": 197.0,
+      "area": 274,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 107,
+      "name": "奥尔伦多省份 107",
+      "cx": 273.0,
+      "cy": 115.0,
+      "area": 631,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 108,
+      "name": "奥尔伦多省份 108",
+      "cx": 243.0,
+      "cy": 138.0,
+      "area": 771,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 109,
+      "name": "奥尔伦多省份 109",
+      "cx": 161.0,
+      "cy": 120.0,
+      "area": 376,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 110,
+      "name": "奥尔伦多省份 110",
+      "cx": 177.0,
+      "cy": 104.0,
+      "area": 192,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 111,
+      "name": "奥尔伦多省份 111",
+      "cx": 203.0,
+      "cy": 109.0,
+      "area": 495,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 112,
+      "name": "奥尔伦多省份 112",
+      "cx": 261.0,
+      "cy": 158.0,
+      "area": 303,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 113,
+      "name": "奥尔伦多省份 113",
+      "cx": 239.0,
+      "cy": 191.0,
+      "area": 311,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 114,
+      "name": "奥尔伦多省份 114",
+      "cx": 202.0,
+      "cy": 130.0,
+      "area": 436,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 115,
+      "name": "奥尔伦多省份 115",
+      "cx": 261.0,
+      "cy": 169.0,
+      "area": 134,
+      "owner": "EST",
+      "terrain": "plains"
+    },
+    {
+      "id": 116,
+      "name": "奥尔伦多省份 116",
+      "cx": 267.0,
+      "cy": 173.0,
+      "area": 31,
+      "owner": "EST",
+      "terrain": "plains"
+    },
+    {
+      "id": 117,
+      "name": "奥尔伦多省份 117",
+      "cx": 273.0,
+      "cy": 177.0,
+      "area": 23,
+      "owner": "EST",
+      "terrain": "plains"
+    },
+    {
+      "id": 118,
+      "name": "缇尔城",
+      "cx": 282.0,
+      "cy": 167.0,
+      "area": 309,
+      "owner": "EST",
+      "terrain": "plains"
+    },
+    {
+      "id": 119,
+      "name": "洛恩达",
+      "cx": 359.0,
+      "cy": 150.0,
+      "area": 845,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 120,
+      "name": "奥尔伦多省份 120",
+      "cx": 366.0,
+      "cy": 254.0,
+      "area": 166,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 121,
+      "name": "奥尔伦多省份 121",
+      "cx": 407.0,
+      "cy": 77.0,
+      "area": 265,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 122,
+      "name": "奥尔伦多省份 122",
+      "cx": 282.0,
+      "cy": 184.0,
+      "area": 139,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 123,
+      "name": "奥尔伦多省份 123",
+      "cx": 427.0,
+      "cy": 182.0,
+      "area": 199,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 124,
+      "name": "奥尔伦多省份 124",
+      "cx": 295.0,
+      "cy": 112.0,
+      "area": 263,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 125,
+      "name": "奥尔伦多省份 125",
+      "cx": 331.0,
+      "cy": 210.0,
+      "area": 734,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 126,
+      "name": "奥尔伦多省份 126",
+      "cx": 412.0,
+      "cy": 130.0,
+      "area": 623,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 127,
+      "name": "奥尔伦多省份 127",
+      "cx": 350.0,
+      "cy": 103.0,
+      "area": 300,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 128,
+      "name": "奥尔伦多省份 128",
+      "cx": 310.0,
+      "cy": 155.0,
+      "area": 684,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 129,
+      "name": "奥尔伦多省份 129",
+      "cx": 396.0,
+      "cy": 175.0,
+      "area": 379,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 130,
+      "name": "奥尔伦多省份 130",
+      "cx": 384.0,
+      "cy": 101.0,
+      "area": 746,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 131,
+      "name": "奥尔伦多省份 131",
+      "cx": 357.0,
+      "cy": 230.0,
+      "area": 444,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 132,
+      "name": "奥尔伦多省份 132",
+      "cx": 334.0,
+      "cy": 126.0,
+      "area": 693,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 133,
+      "name": "奥尔伦多省份 133",
+      "cx": 425.0,
+      "cy": 103.0,
+      "area": 272,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 134,
+      "name": "奥尔伦多省份 134",
+      "cx": 333.0,
+      "cy": 176.0,
+      "area": 741,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 135,
+      "name": "奥尔伦多省份 135",
+      "cx": 306.0,
+      "cy": 187.0,
+      "area": 766,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 136,
+      "name": "奥尔伦多省份 136",
+      "cx": 388.0,
+      "cy": 152.0,
+      "area": 828,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 137,
+      "name": "奥尔伦多省份 137",
+      "cx": 289.0,
+      "cy": 137.0,
+      "area": 300,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 138,
+      "name": "奥尔伦多省份 138",
+      "cx": 416.0,
+      "cy": 163.0,
+      "area": 775,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 139,
+      "name": "奥尔伦多省份 139",
+      "cx": 362.0,
+      "cy": 120.0,
+      "area": 824,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 140,
+      "name": "奥尔伦多省份 140",
+      "cx": 346.0,
+      "cy": 234.0,
+      "area": 241,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 141,
+      "name": "奥尔伦多省份 141",
+      "cx": 307.0,
+      "cy": 129.0,
+      "area": 581,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 142,
+      "name": "奥尔伦多省份 142",
+      "cx": 389.0,
+      "cy": 126.0,
+      "area": 666,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 143,
+      "name": "奥尔伦多省份 143",
+      "cx": 333.0,
+      "cy": 151.0,
+      "area": 599,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 144,
+      "name": "奥尔伦多省份 144",
+      "cx": 416.0,
+      "cy": 188.0,
+      "area": 175,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 145,
+      "name": "奥尔伦多省份 145",
+      "cx": 318.0,
+      "cy": 113.0,
+      "area": 207,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 146,
+      "name": "奥尔伦多省份 146",
+      "cx": 408.0,
+      "cy": 97.0,
+      "area": 685,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 147,
+      "name": "奥尔伦多省份 147",
+      "cx": 294.0,
+      "cy": 161.0,
+      "area": 274,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 148,
+      "name": "奥尔伦多省份 148",
+      "cx": 342.0,
+      "cy": 198.0,
+      "area": 260,
+      "owner": "ALV",
+      "terrain": "plains"
+    },
+    {
+      "id": 149,
+      "name": "卡斯塔",
+      "cx": 727.0,
+      "cy": 169.0,
+      "area": 1075,
+      "owner": "DKS",
+      "terrain": "plains"
+    },
+    {
+      "id": 150,
+      "name": "奥尔伦多省份 150",
+      "cx": 698.0,
+      "cy": 156.0,
+      "area": 325,
+      "owner": "DKS",
+      "terrain": "plains"
+    },
+    {
+      "id": 151,
+      "name": "奥尔伦多省份 151",
+      "cx": 748.0,
+      "cy": 186.0,
+      "area": 383,
+      "owner": "DKS",
+      "terrain": "plains"
+    },
+    {
+      "id": 152,
+      "name": "奥尔伦多省份 152",
+      "cx": 751.0,
+      "cy": 159.0,
+      "area": 367,
+      "owner": "DKS",
+      "terrain": "plains"
+    },
+    {
+      "id": 153,
+      "name": "奥尔伦多省份 153",
+      "cx": 726.0,
+      "cy": 191.0,
+      "area": 354,
+      "owner": "DKS",
+      "terrain": "plains"
+    },
+    {
+      "id": 154,
+      "name": "奥尔伦多省份 154",
+      "cx": 711.0,
+      "cy": 149.0,
+      "area": 358,
+      "owner": "DKS",
+      "terrain": "plains"
+    },
+    {
+      "id": 155,
+      "name": "洛萨",
+      "cx": 774.0,
+      "cy": 148.0,
+      "area": 471,
+      "owner": "LSV",
+      "terrain": "plains"
+    },
+    {
+      "id": 156,
+      "name": "奥尔伦多省份 156",
+      "cx": 819.0,
+      "cy": 147.0,
+      "area": 233,
+      "owner": "LSV",
+      "terrain": "plains"
+    },
+    {
+      "id": 157,
+      "name": "奥尔伦多省份 157",
+      "cx": 58.0,
+      "cy": 186.0,
+      "area": 327,
+      "owner": "NWV",
+      "terrain": "plains"
+    },
+    {
+      "id": 158,
+      "name": "瑟兰",
+      "cx": 220.0,
+      "cy": 219.0,
+      "area": 568,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 159,
+      "name": "奥尔伦多省份 159",
+      "cx": 231.0,
+      "cy": 203.0,
+      "area": 99,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 160,
+      "name": "奥尔伦多省份 160",
+      "cx": 266.0,
+      "cy": 182.0,
+      "area": 25,
+      "owner": "EST",
+      "terrain": "plains"
+    },
+    {
+      "id": 161,
+      "name": "奥尔伦多省份 161",
+      "cx": 274.0,
+      "cy": 186.0,
+      "area": 28,
+      "owner": "EST",
+      "terrain": "plains"
+    },
+    {
+      "id": 162,
+      "name": "奥尔伦多省份 162",
+      "cx": 625.0,
+      "cy": 184.0,
+      "area": 36,
+      "owner": "TLV",
+      "terrain": "plains"
+    },
+    {
+      "id": 163,
+      "name": "雷恩堡",
+      "cx": 681.0,
+      "cy": 208.0,
+      "area": 616,
+      "owner": "BRN",
+      "terrain": "plains"
+    },
+    {
+      "id": 164,
+      "name": "奥尔伦多省份 164",
+      "cx": 676.0,
+      "cy": 192.0,
+      "area": 107,
+      "owner": "BRN",
+      "terrain": "plains"
+    },
+    {
+      "id": 165,
+      "name": "塔尔门",
+      "cx": 680.0,
+      "cy": 182.0,
+      "area": 82,
+      "owner": "TLV",
+      "terrain": "plains"
+    },
+    {
+      "id": 166,
+      "name": "缇亚",
+      "cx": 696.0,
+      "cy": 195.0,
+      "area": 204,
+      "owner": "OST",
+      "terrain": "plains"
+    },
+    {
+      "id": 167,
+      "name": "佩兰",
+      "cx": 707.0,
+      "cy": 214.0,
+      "area": 106,
+      "owner": "PLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 168,
+      "name": "奥尔伦多省份 168",
+      "cx": 708.0,
+      "cy": 191.0,
+      "area": 114,
+      "owner": "OST",
+      "terrain": "plains"
+    },
+    {
+      "id": 169,
+      "name": "奥尔伦多省份 169",
+      "cx": 718.0,
+      "cy": 209.0,
+      "area": 398,
+      "owner": "PLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 170,
+      "name": "奥尔伦多省份 170",
+      "cx": 748.0,
+      "cy": 204.0,
+      "area": 250,
+      "owner": "SLT",
+      "terrain": "plains"
+    },
+    {
+      "id": 171,
+      "name": "辛海",
+      "cx": 785.0,
+      "cy": 182.0,
+      "area": 1088,
+      "owner": "VRS",
+      "terrain": "plains"
+    },
+    {
+      "id": 172,
+      "name": "奥尔伦多省份 172",
+      "cx": 770.0,
+      "cy": 222.0,
+      "area": 144,
+      "owner": "VRS",
+      "terrain": "plains"
+    },
+    {
+      "id": 173,
+      "name": "奥尔伦多省份 173",
+      "cx": 804.0,
+      "cy": 161.0,
+      "area": 471,
+      "owner": "VRS",
+      "terrain": "plains"
+    },
+    {
+      "id": 174,
+      "name": "奥尔伦多省份 174",
+      "cx": 802.0,
+      "cy": 192.0,
+      "area": 332,
+      "owner": "VRS",
+      "terrain": "plains"
+    },
+    {
+      "id": 175,
+      "name": "奥尔伦多省份 175",
+      "cx": 767.0,
+      "cy": 200.0,
+      "area": 502,
+      "owner": "VRS",
+      "terrain": "plains"
+    },
+    {
+      "id": 176,
+      "name": "奥尔伦多省份 176",
+      "cx": 772.0,
+      "cy": 165.0,
+      "area": 403,
+      "owner": "VRS",
+      "terrain": "plains"
+    },
+    {
+      "id": 177,
+      "name": "奥尔伦多省份 177",
+      "cx": 111.0,
+      "cy": 242.0,
+      "area": 160,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 178,
+      "name": "奥尔伦多省份 178",
+      "cx": 136.0,
+      "cy": 252.0,
+      "area": 612,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 179,
+      "name": "奥尔伦多省份 179",
+      "cx": 154.0,
+      "cy": 265.0,
+      "area": 157,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 180,
+      "name": "奥尔伦多省份 180",
+      "cx": 229.0,
+      "cy": 251.0,
+      "area": 34,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 181,
+      "name": "兰提",
+      "cx": 746.0,
+      "cy": 237.0,
+      "area": 1200,
+      "owner": "SLT",
+      "terrain": "plains"
+    },
+    {
+      "id": 182,
+      "name": "奥尔伦多省份 182",
+      "cx": 763.0,
+      "cy": 254.0,
+      "area": 290,
+      "owner": "SLT",
+      "terrain": "plains"
+    },
+    {
+      "id": 183,
+      "name": "奥尔伦多省份 183",
+      "cx": 734.0,
+      "cy": 258.0,
+      "area": 241,
+      "owner": "SLT",
+      "terrain": "plains"
+    },
+    {
+      "id": 184,
+      "name": "奥尔伦多省份 184",
+      "cx": 752.0,
+      "cy": 217.0,
+      "area": 282,
+      "owner": "SLT",
+      "terrain": "plains"
+    },
+    {
+      "id": 185,
+      "name": "奥尔伦多省份 185",
+      "cx": 724.0,
+      "cy": 227.0,
+      "area": 368,
+      "owner": "SLT",
+      "terrain": "plains"
+    },
+    {
+      "id": 186,
+      "name": "奥尔伦多省份 186",
+      "cx": 808.0,
+      "cy": 260.0,
+      "area": 23,
+      "owner": "SLT",
+      "terrain": "plains"
+    },
+    {
+      "id": 187,
+      "name": "奥尔伦多省份 187",
+      "cx": 66.0,
+      "cy": 275.0,
+      "area": 261,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 188,
+      "name": "奥尔伦多省份 188",
+      "cx": 78.0,
+      "cy": 267.0,
+      "area": 62,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 189,
+      "name": "奥尔伦多省份 189",
+      "cx": 332.0,
+      "cy": 281.0,
+      "area": 52,
+      "owner": "EST",
+      "terrain": "plains"
+    },
+    {
+      "id": 190,
+      "name": "奥尔伦多省份 190",
+      "cx": 518.0,
+      "cy": 294.0,
+      "area": 103,
+      "owner": "SLN",
+      "terrain": "plains"
+    },
+    {
+      "id": 191,
+      "name": "奥尔伦多省份 191",
+      "cx": 656.0,
+      "cy": 281.0,
+      "area": 103,
+      "owner": "BRN",
+      "terrain": "plains"
+    },
+    {
+      "id": 192,
+      "name": "奥尔伦多省份 192",
+      "cx": 832.0,
+      "cy": 280.0,
+      "area": 26,
+      "owner": "KMO",
+      "terrain": "plains"
+    },
+    {
+      "id": 193,
+      "name": "奥尔伦多省份 193",
+      "cx": 500.0,
+      "cy": 322.0,
+      "area": 26,
+      "owner": "SLN",
+      "terrain": "plains"
+    },
+    {
+      "id": 194,
+      "name": "奥尔伦多省份 194",
+      "cx": 506.0,
+      "cy": 305.0,
+      "area": 29,
+      "owner": "SLN",
+      "terrain": "plains"
+    },
+    {
+      "id": 195,
+      "name": "奥尔伦多省份 195",
+      "cx": 514.0,
+      "cy": 309.0,
+      "area": 22,
+      "owner": "SLN",
+      "terrain": "plains"
+    },
+    {
+      "id": 196,
+      "name": "凯尔关",
+      "cx": 829.0,
+      "cy": 331.0,
+      "area": 838,
+      "owner": "KMO",
+      "terrain": "plains"
+    },
+    {
+      "id": 197,
+      "name": "奥尔伦多省份 197",
+      "cx": 833.0,
+      "cy": 359.0,
+      "area": 84,
+      "owner": "KMO",
+      "terrain": "plains"
+    },
+    {
+      "id": 198,
+      "name": "奥尔伦多省份 198",
+      "cx": 48.0,
+      "cy": 371.0,
+      "area": 77,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 199,
+      "name": "奥尔伦多省份 199",
+      "cx": 73.0,
+      "cy": 366.0,
+      "area": 79,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 200,
+      "name": "奥尔伦多省份 200",
+      "cx": 179.0,
+      "cy": 374.0,
+      "area": 254,
+      "owner": "VLS",
+      "terrain": "plains"
+    },
+    {
+      "id": 201,
+      "name": "奥尔伦多省份 201",
+      "cx": 371.0,
+      "cy": 364.0,
+      "area": 21,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 202,
+      "name": "瑞汀",
+      "cx": 442.0,
+      "cy": 361.0,
+      "area": 891,
+      "owner": "ARD",
+      "terrain": "plains"
+    },
+    {
+      "id": 203,
+      "name": "奥尔伦多省份 203",
+      "cx": 462.0,
+      "cy": 352.0,
+      "area": 163,
+      "owner": "ARD",
+      "terrain": "plains"
+    },
+    {
+      "id": 204,
+      "name": "奥尔伦多省份 204",
+      "cx": 426.0,
+      "cy": 374.0,
+      "area": 205,
+      "owner": "ARD",
+      "terrain": "plains"
+    },
+    {
+      "id": 205,
+      "name": "塞洛港",
+      "cx": 484.0,
+      "cy": 371.0,
+      "area": 487,
+      "owner": "SLN",
+      "terrain": "plains"
+    },
+    {
+      "id": 206,
+      "name": "奥尔伦多省份 206",
+      "cx": 526.0,
+      "cy": 359.0,
+      "area": 293,
+      "owner": "SLN",
+      "terrain": "plains"
+    },
+    {
+      "id": 207,
+      "name": "扎兰",
+      "cx": 903.0,
+      "cy": 374.0,
+      "area": 284,
+      "owner": "ZVL",
+      "terrain": "plains"
+    },
+    {
+      "id": 208,
+      "name": "奥尔伦多省份 208",
+      "cx": 64.0,
+      "cy": 381.0,
+      "area": 295,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 209,
+      "name": "马尔登",
+      "cx": 426.0,
+      "cy": 408.0,
+      "area": 595,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 210,
+      "name": "奥尔伦多省份 210",
+      "cx": 491.0,
+      "cy": 402.0,
+      "area": 343,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 211,
+      "name": "奥尔伦多省份 211",
+      "cx": 417.0,
+      "cy": 358.0,
+      "area": 197,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 212,
+      "name": "奥尔伦多省份 212",
+      "cx": 388.0,
+      "cy": 388.0,
+      "area": 255,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 213,
+      "name": "奥尔伦多省份 213",
+      "cx": 466.0,
+      "cy": 409.0,
+      "area": 625,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 214,
+      "name": "奥尔伦多省份 214",
+      "cx": 412.0,
+      "cy": 427.0,
+      "area": 332,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 215,
+      "name": "奥尔伦多省份 215",
+      "cx": 437.0,
+      "cy": 426.0,
+      "area": 467,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 216,
+      "name": "奥尔伦多省份 216",
+      "cx": 406.0,
+      "cy": 378.0,
+      "area": 611,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 217,
+      "name": "奥尔伦多省份 217",
+      "cx": 402.0,
+      "cy": 405.0,
+      "area": 625,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 218,
+      "name": "奥尔伦多省份 218",
+      "cx": 449.0,
+      "cy": 390.0,
+      "area": 30,
+      "owner": "MRV",
+      "terrain": "plains"
+    },
+    {
+      "id": 219,
+      "name": "奥尔伦多省份 219",
+      "cx": 826.0,
+      "cy": 416.0,
+      "area": 20,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 220,
+      "name": "南望城",
+      "cx": 856.0,
+      "cy": 398.0,
+      "area": 883,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 221,
+      "name": "奥尔伦多省份 221",
+      "cx": 804.0,
+      "cy": 485.0,
+      "area": 158,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 222,
+      "name": "奥尔伦多省份 222",
+      "cx": 898.0,
+      "cy": 335.0,
+      "area": 71,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 223,
+      "name": "奥尔伦多省份 223",
+      "cx": 849.0,
+      "cy": 456.0,
+      "area": 547,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 224,
+      "name": "奥尔伦多省份 224",
+      "cx": 848.0,
+      "cy": 337.0,
+      "area": 364,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 225,
+      "name": "奥尔伦多省份 225",
+      "cx": 892.0,
+      "cy": 380.0,
+      "area": 229,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 226,
+      "name": "奥尔伦多省份 226",
+      "cx": 835.0,
+      "cy": 431.0,
+      "area": 592,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 227,
+      "name": "奥尔伦多省份 227",
+      "cx": 862.0,
+      "cy": 358.0,
+      "area": 916,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 228,
+      "name": "奥尔伦多省份 228",
+      "cx": 841.0,
+      "cy": 372.0,
+      "area": 436,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 229,
+      "name": "奥尔伦多省份 229",
+      "cx": 826.0,
+      "cy": 471.0,
+      "area": 610,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 230,
+      "name": "奥尔伦多省份 230",
+      "cx": 884.0,
+      "cy": 404.0,
+      "area": 355,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 231,
+      "name": "奥尔伦多省份 231",
+      "cx": 858.0,
+      "cy": 430.0,
+      "area": 794,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 232,
+      "name": "奥尔伦多省份 232",
+      "cx": 910.0,
+      "cy": 352.0,
+      "area": 217,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 233,
+      "name": "奥尔伦多省份 233",
+      "cx": 866.0,
+      "cy": 331.0,
+      "area": 402,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 234,
+      "name": "奥尔伦多省份 234",
+      "cx": 835.0,
+      "cy": 402.0,
+      "area": 395,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 235,
+      "name": "奥尔伦多省份 235",
+      "cx": 889.0,
+      "cy": 350.0,
+      "area": 661,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 236,
+      "name": "奥尔伦多省份 236",
+      "cx": 876.0,
+      "cy": 382.0,
+      "area": 651,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 237,
+      "name": "奥尔伦多省份 237",
+      "cx": 418.0,
+      "cy": 455.0,
+      "area": 25,
+      "owner": "ISR",
+      "terrain": "plains"
+    },
+    {
+      "id": 238,
+      "name": "奥尔伦多省份 238",
+      "cx": 440.0,
+      "cy": 443.0,
+      "area": 441,
+      "owner": "ISR",
+      "terrain": "plains"
+    },
+    {
+      "id": 239,
+      "name": "瑟拉湾",
+      "cx": 461.0,
+      "cy": 433.0,
+      "area": 329,
+      "owner": "ISR",
+      "terrain": "plains"
+    },
+    {
+      "id": 240,
+      "name": "奥尔伦多省份 240",
+      "cx": 517.0,
+      "cy": 448.0,
+      "area": 37,
+      "owner": "ISR",
+      "terrain": "plains"
+    },
+    {
+      "id": 241,
+      "name": "奥尔伦多省份 241",
+      "cx": 526.0,
+      "cy": 435.0,
+      "area": 34,
+      "owner": "ISR",
+      "terrain": "plains"
+    },
+    {
+      "id": 242,
+      "name": "奥尔伦多省份 242",
+      "cx": 875.0,
+      "cy": 431.0,
+      "area": 83,
+      "owner": "SLD",
+      "terrain": "plains"
+    },
+    {
+      "id": 243,
+      "name": "奥尔伦多省份 243",
+      "cx": 401.0,
+      "cy": 585.0,
+      "area": 1360,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 244,
+      "name": "奥尔伦多省份 244",
+      "cx": 692.0,
+      "cy": 600.0,
+      "area": 55,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 245,
+      "name": "奥尔伦多省份 245",
+      "cx": 174.0,
+      "cy": 596.0,
+      "area": 170,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 246,
+      "name": "奥尔伦多省份 246",
+      "cx": 549.0,
+      "cy": 598.0,
+      "area": 291,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 247,
+      "name": "奥尔伦多省份 247",
+      "cx": 277.0,
+      "cy": 596.0,
+      "area": 458,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 248,
+      "name": "奥尔伦多省份 248",
+      "cx": 470.0,
+      "cy": 580.0,
+      "area": 628,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 249,
+      "name": "奥尔伦多省份 249",
+      "cx": 629.0,
+      "cy": 595.0,
+      "area": 393,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 250,
+      "name": "奥尔伦多省份 250",
+      "cx": 234.0,
+      "cy": 556.0,
+      "area": 60,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 251,
+      "name": "奥尔伦多省份 251",
+      "cx": 341.0,
+      "cy": 578.0,
+      "area": 653,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 252,
+      "name": "奥尔伦多省份 252",
+      "cx": 222.0,
+      "cy": 593.0,
+      "area": 565,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 253,
+      "name": "奥尔伦多省份 253",
+      "cx": 667.0,
+      "cy": 574.0,
+      "area": 256,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 254,
+      "name": "奥尔伦多省份 254",
+      "cx": 444.0,
+      "cy": 592.0,
+      "area": 941,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 255,
+      "name": "奥尔伦多省份 255",
+      "cx": 507.0,
+      "cy": 596.0,
+      "area": 427,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 256,
+      "name": "奥尔伦多省份 256",
+      "cx": 591.0,
+      "cy": 598.0,
+      "area": 210,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 257,
+      "name": "奥尔伦多省份 257",
+      "cx": 361.0,
+      "cy": 592.0,
+      "area": 713,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 258,
+      "name": "奥尔伦多省份 258",
+      "cx": 319.0,
+      "cy": 592.0,
+      "area": 689,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 259,
+      "name": "奥尔伦多省份 259",
+      "cx": 436.0,
+      "cy": 572.0,
+      "area": 649,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 260,
+      "name": "奥尔伦多省份 260",
+      "cx": 374.0,
+      "cy": 572.0,
+      "area": 427,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 261,
+      "name": "奥尔伦多省份 261",
+      "cx": 661.0,
+      "cy": 594.0,
+      "area": 473,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 262,
+      "name": "奥尔伦多省份 262",
+      "cx": 198.0,
+      "cy": 590.0,
+      "area": 572,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 263,
+      "name": "奥尔伦多省份 263",
+      "cx": 515.0,
+      "cy": 582.0,
+      "area": 65,
+      "owner": null,
+      "terrain": "plains"
+    },
+    {
+      "id": 264,
+      "name": "奥尔伦多省份 264",
+      "cx": 239.0,
+      "cy": 584.0,
+      "area": 691,
+      "owner": null,
+      "terrain": "plains"
+    }
+  ]
+}

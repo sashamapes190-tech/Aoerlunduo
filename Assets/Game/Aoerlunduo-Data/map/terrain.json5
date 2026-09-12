@@ -1,0 +1,77 @@
+{
+  // Template terrain definitions
+  // Single source of truth for terrain types, colors, and properties
+  //
+  // ENGINE layer (mechanism):
+  //   - color: RGB for map rendering
+  //   - movement_cost: base cost multiplier for pathfinding
+  //   - is_water: terrain classification (water vs land)
+  //
+  // GAME layer adds policy via customData:
+  //   - defence bonuses, supply limits, attrition, etc.
+
+  categories: {
+    ocean: {
+      color: [8, 31, 130],
+      movement_cost: 1.0,
+      is_water: true
+    },
+    inland_ocean: {
+      color: [55, 90, 220],
+      movement_cost: 1.0,
+      is_water: true
+    },
+    grasslands: {
+      color: [86, 124, 27],
+      movement_cost: 1.0
+    },
+    plains: {
+      color: [200, 214, 107],
+      movement_cost: 1.0
+    },
+    hills: {
+      color: [0, 86, 6],
+      movement_cost: 1.4
+    },
+    highlands: {
+      color: [23, 23, 23],
+      movement_cost: 1.3
+    },
+    mountain: {
+      color: [65, 42, 17],
+      movement_cost: 1.5
+    },
+    desert_mountain: {
+      color: [112, 74, 31],
+      movement_cost: 1.5
+    },
+    snow: {
+      color: [255, 255, 255],
+      movement_cost: 1.6
+    },
+    desert: {
+      color: [206, 169, 99],
+      movement_cost: 1.1
+    },
+    coastal_desert: {
+      color: [203, 191, 103],
+      movement_cost: 1.05
+    },
+    savannah: {
+      color: [180, 160, 80],
+      movement_cost: 1.0
+    },
+    forest: {
+      color: [42, 55, 22],
+      movement_cost: 1.25
+    },
+    jungle: {
+      color: [0, 100, 0],
+      movement_cost: 1.4
+    },
+    marsh: {
+      color: [75, 147, 174],
+      movement_cost: 1.3
+    }
+  }
+}

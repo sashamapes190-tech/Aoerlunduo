@@ -1,0 +1,14 @@
+﻿<Solution>
+  <Project Path="MCPForUnity.Editor.csproj" />
+  <Project Path="Core.csproj" />
+  <Project Path="MapAssembly.csproj" />
+  <Project Path="StarterKit.csproj" />
+  <Project Path="MCPForUnity.Runtime.csproj" />
+  <Project Path="Engine.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Tests.csproj" />
+  <Project Path="Utils.csproj" />
+  <Project Path="MapTestsAssembly.csproj" />
+  <Project Path="Network.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>

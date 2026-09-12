@@ -1,0 +1,8 @@
+{
+  width: 15000,
+  height: 6500,
+  max_provinces: 280,
+  sea_starts: [1],
+  lake_starts: [],
+  ocean_starts: [1]
+}
